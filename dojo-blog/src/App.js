@@ -4,6 +4,7 @@ import Home from './Home';
 import Create from './Create';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import BlogDetails from './BlogDetails';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
             <Route path="/create">
               <Create />
             </Route>
-            {/* <Route path="/create" exact component={Home} /> */}
+            <Route path="/blogs/:id">
+              <BlogDetails />
+            </Route>
           </Switch>
         </div>
       </div>
