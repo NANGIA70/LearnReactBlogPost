@@ -17,6 +17,12 @@
       "title": "React",
       "body": "We have successfully made a barebones blog website!",
       "author": "mario"
+    },
+    {
+      "id": "4",
+      "title": "History",
+      "body": "checking history working.",
+      "author": "mario"
     }
   ]
 }
